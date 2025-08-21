@@ -12,7 +12,7 @@ import ScrollButton from "../../helpers/ScrollToTop.js";
 
 const About = () => {
   useEffect(() => {
-    document.title = "About | Sophia Martinez";
+    document.title = "About | Gustavo Avila";
     window.scrollTo(0, 0);
   })
   return (

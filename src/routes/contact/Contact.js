@@ -4,7 +4,7 @@ import ContactForm from "./ContactForm";
 import "./Contact.sass";
 const Contact = () => {
   useEffect(() => {
-    document.title = "Contact | Sophia Martinez";
+    document.title = "Contact | Gustavo Avila";
     window.scrollTo(0, 0);
   })
   return (

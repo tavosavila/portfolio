@@ -7,7 +7,7 @@ const HeroPreview = () => {
       <h1 className="hero-font white-text h1-tag">
         Hi, I'm <br></br>
         <em className="pink-text">Gustavo Avila</em>
-        <br></br>Software Developer
+        <br></br>Senior Software Engineer
       </h1>
       <p className="gray-text p-tag">Back End Development</p>
       <Link className="pink-text" to="/portfolio">

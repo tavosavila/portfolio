@@ -1,6 +1,5 @@
 import AboutPreview from "./AboutPreview";
 import HeroPreview from "./HeroPreview";
-import PortfolioPreview from "./PortfolioPreview";
 import ContactPreview from "./ContactPreview";
 import { Footer } from "../../components";
 import ScrollButton from "../../components/ScrollButton";
@@ -16,7 +15,6 @@ const Mainpage = () => {
     <main className="landing">
       <HeroPreview />
       <AboutPreview />
-      <PortfolioPreview />
       <ContactPreview />
       <ScrollButton />
       <Footer />

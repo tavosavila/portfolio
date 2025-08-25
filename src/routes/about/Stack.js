@@ -1,18 +1,17 @@
 import { React } from 'react'
 const stack = [
   "Java",
-  "SpringBoot",
-  "HTML",
-  "CSS3",
-  "JavaScript",
-  "React.js",
-  "RESTful API",
-  "GitHub",
-  "Git",
-  "Oracle",
-  "PostgreSQL",
-  "MongoDB"
-  
+  "Spring Boot",
+  "Cloud (AWS, Azure)",
+  "Docker",
+  "SQL & NoSQL",
+  "TDD",
+  "Software Architecture",
+  "Algorithms & Data Structures",
+  "Leadership & Soft Skills",
+  "MongoDB",
+  "REST APIs",
+  "AI/ML Tooling"
 ];
 
 

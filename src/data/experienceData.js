@@ -1,64 +1,106 @@
 const experienceData = [
   {
     id: 1,
-    jobtitle: "Marketing Campaign Manager",
-    companyname: "InnovateX Solutions",
+    jobtitle: "Developer, Build Engineer, Data Analyst,  System Analyst",
+    companyname: "VATES",
+    client:"Monsanto Argentina SRL",
     worktype: "Full-time",
-    duration: "Jan 2020 - Oct 2023",
-    location: "Tbilisi, Georgia",
+    duration: "Jan 2020 - Present",
+    location: "CABA, Buenos Aires, Argentina",
     responsibility: [
-      `Developed and executed innovative marketing campaigns that resulted in a 20% increase in brand visibility and a 15% rise in customer engagement.`,
-      `Collaborated with cross-functional teams to create compelling content for digital and print channels, ensuring consistent brand messaging.`,
-      `Conducted market research and competitor analysis, identifying key trends and insights to refine campaign strategies.`,
-      `Utilized data analytics to measure campaign performance, adjusting tactics in real-time to maximize ROI.`,
-      `Managed a team of graphic designers and copywriters, fostering a collaborative environment and ensuring timely delivery of high-quality assets.`
+      `Developed and maintained the system frontend using Angular 10 and the backend using Java 8.`,
+      `Contributed to iterative development processes within an agile Scrum environment.`,
+      `Designed and implemented a microservices architecture to enhance system scalability and flexibility.`,
+      `Built backend services leveraging Java and Node.js technologies.`,
+      `Managed and maintained Oracle and PostgreSQL databases to ensure data integrity and performance.`,
+      `Integrated the system with SAP to enable seamless order invoicing functionality.`,
+      `Utilized AWS services such as S3 and Cloud Foundry to establish a reliable and scalable infrastructure.`,
     ],
+    
+
   },
   {
     id: 2,
-    jobtitle: "Social Media Strategist",
-    companyname: "NexaReach Marketing Agency",
+    jobtitle: "Developer, Development Team Lead, System Analyst",
+    companyname: "Cognizant SRL",
+    client:"Bank Galicia",
     worktype: "Full-time",
-    duration: "Sep 2019 - Jan 2020",
-    location: "Tbilisi, Georgia",
+    duration: "Jun 2016 - Jan 2020",
+    location: "CABA, Buenos Aires, Argentina",
     responsibility: [
-      `Devised and executed dynamic social media strategies across platforms, resulting in a 25% growth in follower base and a 30% boost in user engagement.`,
-      `Created engaging and shareable content, leveraging both visual and written components to enhance brand storytelling.`,
-      `Collaborated with clients to understand their unique voice and objectives, tailoring social media plans to align with their brand identity.`,
-      `Monitored social media trends and emerging platforms, recommending and implementing new strategies to keep clients ahead of the curve.`,
+      `Performed corrections and enhancements to existing systems and processes.`,
+      `Conducted thorough analysis of requirements to ensure alignment with project goals.`,
+      `Designed and developed microservices to optimize application functionality and scalability.`,
+      `Led and coordinated team efforts, ensuring timely delivery of project milestones.`,
+    ],
+  },
+  {
+    id: 3,
+    jobtitle: "Developer, Data Modeler, Integration Architect",
+    companyname: "SnoopConsulting SRL",
+    client:"Nextel Argentina, QBE seguros, Cencosud, Centro Argentino de Clearing, Gestion IT (Bank Patagonia)",
+    worktype: "Full-time",
+    duration: "May 2012 - Jan 2016",
+    location: "CABA, Buenos Aires, Argentina",
+    responsibility: [
+      `Performed corrections and enhancements to existing systems and processes.`,
+      `Conducted thorough analysis of requirements to ensure alignment with project goals.`,
+      `Designed and developed microservices to optimize application functionality and scalability.`,
+      `Led and coordinated team efforts, ensuring timely delivery of project milestones.`,
+    ],
+  },
+  {
+    id: 4,
+    jobtitle: "Developer",
+    companyname: "Punto QA SRL",
+    client:"Telefonica España",
+    worktype: "Full-time",
+    duration: "Dec 2011 - Oct 2012",
+    location: "CABA, Buenos Aires, Argentina",
+    responsibility: [
+      `Web developer for Telefonica Spain at project Apolo, Analysis of evolutionary corrective. Support in deployments.Bug fixer`
+    ],
+  },
+  {
+    id: 5,
+    jobtitle: "Developer",
+    companyname: "CDA Informática SRL, CABA",
+    client:"BBVA mexico",
+    worktype: "Full-time",
+    duration: "Dec 2011 - Oct 2012",
+    location: "CABA, Buenos Aires, Argentina",
+    responsibility: [
+      `Developed and maintained front-end and back-end components for applications in BBVA Mexico.`,
+      `Conducted analysis and implementation of evolutionary and corrective system improvements.`,
+      `Designed and constructed modules and reports to meet project requirements.`,
+      `Identified, diagnosed, and resolved software bugs to ensure system stability and performance.`,
+    ],
+  },
+  {
+    id: 6,
+    jobtitle: "Developer",
+    companyname: "Gameloft",
+    client:"Gameloft",
+    worktype: "Full-time",
+    duration: "Nov 2007 - Jun 2010",
+    location: "CABA, Buenos Aires, Argentina",
+    responsibility: [
+      `Games porting on different devices and platforms (Java ME, BlackBerry and Windows Mobile , Android).`,
+      `Developed demo builds and billing functions for LATAM market within HEP program.`,
+    ],
+  },
+  {
+    id: 7,
+    jobtitle: "Help Desk Specialist",
+    companyname: "Asytec SRL ",
+    client:"Petrobras Argentina",
+    worktype: "Full-time",
+    duration: "Jun 2006 - Nov 2007",
+    location: "CABA, Buenos Aires, Argentina",
+    responsibility: [
+      `I worked as Pretrobras's help desk support.`
     ],
   }
 ];
 
-const educationData = [
-  {
-    name: "Emerald College",
-    status: "Bachelor of Science in Computer Science",
-    year: "2021",
-  },
-  {
-    name: "Cityville High School",
-    status: "High School Diploma",
-    year: "2012",
-  }
-];
-
-const certificationData = [
-  {
-    name: "HTML and CSS in depth",
-    source: "Meta",
-    date: "Issued Sept 2022 · No Expiration Date"
-  },
-  {
-    name: "Interactivity with JavaScript",
-    source: "University of Michigan",
-    date: "Issued Sept 2022 · No Expiration Date"
-  },
-  {
-    name: "React Basics",
-    source: "Meta",
-    date: "Issued Sept 2022 · No Expiration Date"
-  }
-];
-
-export { experienceData, educationData, certificationData };
+export { experienceData };
